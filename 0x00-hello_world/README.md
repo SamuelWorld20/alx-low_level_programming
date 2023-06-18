@@ -30,6 +30,7 @@ The "0x00-hello_world" project contains the following files:
 - **3-name**: This file contains a C program that prints the name of the compilation object file.
 - **4-puts.c**: This file contains a C program that uses the `puts` function to print a string to the standard output.
 - **5-printf.c**: This file contains a C program that uses the `printf` function to print formatted text to the standard output.
+- **6-size.c**: This file contains a C program that prints the size of various types on the computer it is compiled and run on.
 
 ## Setup
 
