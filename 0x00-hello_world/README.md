@@ -32,6 +32,7 @@ The "0x00-hello_world" project contains the following files:
 - **5-printf.c**: This file contains a C program that uses the `printf` function to print formatted text to the standard output.
 - **6-size.c**: This file contains a C program that prints the size of various types on the computer it is compiled and run on.
 - **100-intel**: This file shows how to generate the assembly code (Intel syntax) of a C code.
+- **101-quote.c**: This file contains a C program that prints a string to the standard error.
 
 ## Setup
 
