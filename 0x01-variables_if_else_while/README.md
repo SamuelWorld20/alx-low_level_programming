@@ -35,6 +35,7 @@ The "0x01-variables_if_else_while" project contains the following files:
 - **8-print_base16.c**: A C program that prints all the numbers of base 16 in lowercase using a while loop.
 - **9-print_comb.c**: A C program that prints all possible combinations of single-digit numbers using a while loop.
 - **100-print_comb3.c**: A C program that prints all possible combinations of two-digit numbers using nested while loops.
+- **101-print_comb4.c**: A C program that prints all possible combinations of three-digit numbers using nested while loops.
 
 Feel free to explore each file to understand the code implementation and grasp the concepts.
 
