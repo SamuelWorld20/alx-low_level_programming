@@ -29,7 +29,7 @@ int main(void)
 	{
 		printf("and is 0\n");
 	}
-	else if (last_digit < 6 && last_digit != 0)
+	else
 	{
 		printf("and is less than 6 and not 0\n");
 	}
