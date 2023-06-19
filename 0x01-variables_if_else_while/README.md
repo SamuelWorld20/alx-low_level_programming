@@ -36,6 +36,7 @@ The "0x01-variables_if_else_while" project contains the following files:
 - **9-print_comb.c**: A C program that prints all possible combinations of single-digit numbers using a while loop.
 - **100-print_comb3.c**: A C program that prints all possible combinations of two-digit numbers using nested while loops.
 - **101-print_comb4.c**: A C program that prints all possible combinations of three-digit numbers using nested while loops.
+- **102-print_comb5.c**: A C program that prints all possible combinations of two two-digit numbers.
 
 Feel free to explore each file to understand the code implementation and grasp the concepts.
 
