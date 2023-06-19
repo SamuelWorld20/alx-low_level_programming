@@ -6,15 +6,15 @@
  */
 int main(void)
 {
-	char digit;
+	int number;
 
-	for (digit = '0'; digit <= '15'; digit++)
+	for (number = 0; number < 10; number++)
 	{
-		putchar(digit);
+		putchar('0' + number);
 	}
-	for (digit = 'a'; digit <= 'p'; digit)
+	for (number = 0; number < 6; number++)
 	{
-		putchar(digit);
+		putchar('a' + number);
 	}
 	putchar('\n');
 	return (0);
