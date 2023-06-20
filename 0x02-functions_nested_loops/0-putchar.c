@@ -1,5 +1,5 @@
-#include <stdio.h>
 #include "main.h"
+#include <stdio.h>
 /**
  * main - This program prints _putchar.
  *
@@ -7,6 +7,15 @@
  */
 int main(void)
 {
-	printf("_putchar\n");
+/**
+ * myPutchar - program that prints _putchar.
+ *
+ * Return: Always 0 (Success)
+ */
+	int myPutchar(void)
+	{
+		printf("_putchar\n");
+		return (0);
+	}
 	return (0);
 }
