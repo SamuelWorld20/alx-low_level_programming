@@ -1,6 +1,8 @@
 #ifndef MAIN_H
 #define MAIN_H
 
-int myPutchar(void);
+#include <stdio.h>
 
-#endif
+void _putchar(void);
+
+#endif/* MAIN_H */

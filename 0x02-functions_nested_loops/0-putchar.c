@@ -7,15 +7,9 @@
  */
 int main(void)
 {
-/**
- * myPutchar - program that prints _putchar.
- *
- * Return: Always 0 (Success)
- */
-	int myPutchar(void)
+	_putchar(void)
 	{
 		printf("_putchar\n");
-		return (0);
 	}
 	return (0);
 }
