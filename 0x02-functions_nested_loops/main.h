@@ -3,6 +3,6 @@
 
 #include <stdio.h>
 
-void _putchar(void);
+int _putchar(char a);
 
 #endif/* MAIN_H */
