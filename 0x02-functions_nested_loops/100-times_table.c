@@ -34,9 +34,9 @@ void print_times_table(int n)
 			else if (result >= 10)
 			{
 				_putchar(' ');
-				_putchar((result / 10) + '0')
+				_putchar((result / 10) + '0');
 			}
-			_putchar((product % 10) + '0');
+			_putchar((result % 10) + '0');
 		}
 		_putchar('\n');
 	}
