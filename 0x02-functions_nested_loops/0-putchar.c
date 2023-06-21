@@ -1,14 +1,12 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * _putchar - This program prints _putchar.
- * @a: argument
+ * main - This program print _putchar.
  *
  * Return: Always 0 (Success)
  */
-int _putchar(char a)
+int main(void)
 {
-	return (putchar(a));
 	_putchar('_');
 	_putchar('p');
 	_putchar('u');
@@ -17,6 +15,6 @@ int _putchar(char a)
 	_putchar('h');
 	_putchar('a');
 	_putchar('r');
-
+	_putchar('\n');
 	return (0);
 }
