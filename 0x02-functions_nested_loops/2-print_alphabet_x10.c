@@ -9,16 +9,16 @@ void print_alphabet_x10(void)
 {
 	int a, b;
 
-	int letter;
+	char letter = 'a';
 
 	for (a = 0; a < 10; a++)
 	{
 		for (b = 0; b < 26; b++)
 		{
-			_putchar("%c", letter);
+			_putchar(letter);
 			letter++;
 		}
-		_putchar("\n");
+		_putchar('\n');
 		letter = 'a';
 	}
 }
