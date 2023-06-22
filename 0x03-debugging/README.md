@@ -21,6 +21,7 @@ By working on these debugging exercises, you will sharpen your problem-solving s
 
 Here are some of the projects included in this repository:
 
+- [0-main.c](./0-main.c/)
 - [1-main.c](./1-main.c/)
 - [2-largest_number.c](./2-largest_number.c/)
 - [3-print_remaining_days.c](./3-print_remaining_days.c/)
