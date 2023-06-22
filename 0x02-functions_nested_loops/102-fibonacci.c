@@ -7,26 +7,22 @@
  */
 int main(void)
 {
-	int fib1 = 1;
+	int fibNums[50];
 
-	int fib2 = 2;
+	fibNums[0] = 1;
+
+	fibNums[1] = 2;
 
 	int a;
 
-	int nextFib;
-
-	printf("%d, %d, ", fib1, fib2);
-	for (a = 3; a <= 50; a++)
+	for (a = 2; a < 50; a++)
 	{
-		nextFib = fib1 + fib2;
-		printf("%d", nextFib);
-		if (a != 50)
-		{
-			printf(", ");
-		}
-		fib1 = fib2;
-		fib2 = nextFib;
+		fibNums[a] = fibNums[a - 1] + fibNums[a - 2];
 	}
-	printf("\n");
+	for (int a = 0; a < 49; a++)
+	{
+		printf("%d, ", fibNums[a]);
+	}
+	printf("%d\n", fibNums[49]);
 	return (0);
 }
