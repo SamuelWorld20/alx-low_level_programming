@@ -16,7 +16,7 @@ int main(void)
 	unsigned int fibNext;
 
 	printf("%u, %u, ", fib1, fib2);
-	for (int a = 3; a <= 98; a++)
+	for (a = 3; a <= 98; a++)
 	{
 		fibNext = fib1 + fib2;
 		printf("%u", fibNext);
