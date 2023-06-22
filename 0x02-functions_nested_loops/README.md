@@ -40,6 +40,7 @@ The "0x02-functions_nested_loops" project contains the following files:
 - **101-natural.c**: A C program that computes and prints the sum of all multiples of 3 or 5 below 1024.
 - **102-fibonacci.c**: A C program that prints the first 50 Fibonacci numbers, starting with 1 and 2.
 - **103-fibonacci.c**: A more advanced C program that prints the sum of the even-valued Fibonacci numbers not exceeding 4,000,000.
+- **104-fibonacci.c**: A C program finds and prints the first 98 Fibonacci numbers, starting with 1 and 2.
 
 Feel free to explore each file to understand the code implementation and grasp the concepts.
 
