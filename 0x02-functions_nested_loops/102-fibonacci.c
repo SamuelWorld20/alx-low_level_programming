@@ -22,10 +22,11 @@ int main(void)
 		printf("%d", nextFib);
 		if (a != 50)
 		{
-			prinf(", ");
+			printf(", ");
 		}
 		fib1 = fib2;
 		fib2 = nextFib;
 	}
 	printf("\n");
+	return (0);
 }
