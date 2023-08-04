@@ -4,8 +4,6 @@
 /**
  * print_binary - it prints the binary representation of a number
  * @n: it collects the number
- *
- * Return: Always 0.
  */
 void print_binary(unsigned long int n)
 {
@@ -25,5 +23,9 @@ void print_binary(unsigned long int n)
 				_putchar('0');
 		}
 		num >>= 1;
+	}
+	if (n == 0)
+	{
+		_putchar('0');
 	}
 }
