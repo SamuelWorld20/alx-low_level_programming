@@ -21,5 +21,8 @@ unsigned int binary_to_uint(const char *b)
 		num += b[n] - '0';
 		n++;
 	}
+	if (b[n] != '\0')
+		return (0);
+
 	return (num);
 }
