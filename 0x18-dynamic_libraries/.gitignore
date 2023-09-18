@@ -1,0 +1,4 @@
+# Ignore all .c and .o files
+*.c
+*.o
+
