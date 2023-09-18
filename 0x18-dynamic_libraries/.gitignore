@@ -1,4 +1,5 @@
 # Ignore all .c and .o files
 *.c
 *.o
+!0-main.c
 
